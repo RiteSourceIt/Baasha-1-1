@@ -1,0 +1,171 @@
+<!-- Baasha StyleSheet -->
+// Extra small devices (portrait phones, less than 34em)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 34em and up)
+@media (min-width: 34em) { 
+
+}
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: 48em) {
+
+}
+
+// Large devices (desktops, 62em and up)
+@media (min-width: 62em) {  }
+
+// Extra large devices (large desktops, 75em and up)
+@media (min-width: 75em) { }
+
+//Customise the Navigation
+.navbar,.navbar-header,.navbar-toggle {/* background*/
+      margin-bottom: 0;
+      border-bottom: 2px rgb(10,80,107);
+      background-color:#47687D;
+      -webkit-box-shadow: inset 0 1px 0 rgba(6,154,212, .1);
+      box-shadow: inset 0 1px 0 rgba(6,154,212, .1);
+    }
+
+.navbar .nav > li > a {/* Nav Font Colors*/
+          float: none;
+          color: #f9f9f9; 
+          font-size: 16px;
+          text-decoration: none;
+          border-bottom: 2px rgb(10,80,107);
+      	  background-color:#47687D;
+          /*background-color:#0A506B;
+          text-shadow: 0 1px 0 #ffffff;*/
+      }
+    .navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {/* active menu*/
+        color: #10767F;
+        background-color: #E6ECEF;
+        font-weight: bolder;
+        
+   }
+   .navbar .nav > li > a:hover,
+   .navbar .nav > li > a:focus{
+   		color: #f9f9f9;
+   		text-shadow: 0 1px 0 #AEE9FF;
+        font-weight: bolder;
+   }   
+
+    /*  Logo area in the navigation bar */
+
+    .navbar-brand,
+    .navbar-brand:hover,
+  	.navbar-brand:focus
+    {
+    	max-height:75px;
+    	background-color:#f9f9f9;
+    }
+  
+
+    /* Add a background color and some padding to the footer */
+    footer {
+      padding: 3px;
+      color:#f9f9f9;
+      background-color: #47687D;
+      max-height: 90%;
+      border-color: #ffffff;
+    }
+    .footer-menu a{
+      color:#f9f9f9;
+    }
+    /*button*/
+    .social-btn{
+    	background-color: #47687D;
+    	border-color: #ffffff;
+    	border:3px;
+    	font-size: 18px;
+  		line-height: 1.33;
+    }
+    /* circular buttons*/
+    .btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+   .vertical-bar {
+    display:inline-block;
+    border:2px;
+    float:right;
+    max-height:60px; 
+    color:#ffffff;
+    text-align: center;
+    overflow: hidden;
+    border-left: 3px solid #F2F7F9;
+    border-right: none;
+   }
+ 
+.Baasha_Nav{
+	border-bottom: 2px rgb(10,80,107);
+    background-color:#47687D;
+	display: inline-block;
+	}
+.dummy {
+    margin-top: 100%;
+}
+.thumbnail {
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    text-align:center;
+    color:#D2ECF6;
+    font-size: 200%;
+    padding-top:calc(50% - 30px);
+    background-color: ##FF8000;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-top: 45px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+  overflow: hidden;
+
+}
+.carousel-inner > .item > img {
+  position: relative;
+  top:0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+  min-height: 500px;
+}
