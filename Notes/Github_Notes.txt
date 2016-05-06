@@ -1,0 +1,57 @@
+git hub references
+==================
+If you create a new Git repository ..
+
+
+git clone   https://.... *.git
+
+git checkout  -b "New branch"  will create a new branch.
+
+git add .      ( see there I a  DOT )
+will add  all the files that are changed.
+
+git commit -m "comments.."  will commit changes
+
+git push   
+this will push files to remote repository.
+
+
+if someone else created a branch to your repository you can get it like
+
+git fetch
+
+this will get all the branches to your current directory.
+
+git checkout  branchname   will switch to new brach.
+
+if you want to know current working branch ,
+
+git branch
+
+will list all branches and current one will have * (star)
+
+Now once your changes are committed to a branch and ready to be merged with branch you started , you can
+send a pull requrest.  I usually do this online.
+
+I also merge online after verifying the changes.
+
+
+Now think how you will use git hub
+
+a)  A remote place to back up your code.
+
+b)  push changes you make to remote place every time it is good to go
+
+c)  When you are working with multiple team members, on different functionality you can create branches and work.
+
+
+work on branch, send pull request merge with original.
+
+
+for remote uses
+
+git remote add <ur_remotename>  <giturl>
+git remote -v
+git fetch <ur_remotename>
+git branch <ur_remotename>/<branchname>
+git checkout -b <ur_remotename>/<branchname>
