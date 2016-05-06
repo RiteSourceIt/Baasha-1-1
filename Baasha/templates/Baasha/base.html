@@ -1,0 +1,75 @@
+<html>
+<head><title>
+			Baasha.net - Tamil learning, tamil games, Tamil worksheets,lessons for kids
+		</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="Content-type" content="text/html; charset=windows-1252">
+
+		<!-- Stylesheet-->
+		<link href="/static/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/static/css/bootstrap-theme.min.css" rel="stylesheet">
+		<link href="/static/css/Styles.css" rel="stylesheet">
+
+
+</head>
+<body>
+	<!-- navigation Bar -->
+		<nav class="navbar navbar-default navbar-fixed-top Baasha_Nav">
+  <div class="container-fluid" style="background-color:#0080FF;" >
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" onclick="get_homepage();return false;"><img src="/static/image/logo.png" height="98%">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse Baasha_Nav" id="myNavbar">
+    </div>
+  </div>
+</nav>
+
+		<!--HEADER-->
+<div class="container-fluid">
+	{%block content%}
+	{%endblock%}			
+</div>
+		<!-- Footer-->
+		<FOOTER class="container-fluid">
+			 <div class="col-sm-12">
+            <div class="col-sm-12" style="display:inline-block;float:left;max-height:60px;">
+
+                <div class="footer-menu" style="float:left;display:inline-block;color:#F7F7F7;">  
+                	<button type="button" class="social-btn" >f</button>
+                	<button type="button" class="social-btn">g+</button>
+                     &nbsp;&nbsp;<a href="#"  style="color:#F7F7F7;" onclick="get_contactpage();return false;"> Contact Us &nbsp; </a>  &#166;&nbsp;     
+  
+        <a href="#" onclick="get_termpage();return false;" style="color:#F7F7F7;">Terms of Use</a> 
+                    
+                  </div>
+                  <div class="col-sm-12">
+               
+                <div class="copyright" >
+                  <p style="color:#f7f7f7;float:right;">
+                    &copy; Baasha.net <script>document.write(new Date().getFullYear())</script><br/><br/><p>&nbsp;</p>
+                </div>
+              
+            </div> 
+            <div class="col-sm-12">
+            	<p>&nbsp;<br/></p></div>
+            </div>
+            
+</div>
+
+		</FOOTER>
+		<!-- Javascript files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/Scripts.js"></script>
+	 <script src="/static/js/Navigation.js"></script>
+	</body>
+</html>
+	
