@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+</head>
+<body>
+<form name="loginform" action="/register/index/" method="post" style="">{% csrf_token %}
+ <header>Login</header>  
+   {{ form.as_p }}
+    
+   
+<button type="submit">Login</button>
+</form>
+</body>
+</html>

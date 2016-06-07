@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+</head>
+<form name="signupform" action="/register/signmeup/" method="post" style="">{% csrf_token %}
+ <header>Welcome to Baasha: Sign Up Here</header>  
+   {{ form.as_p }}
+    
+  
+<button type="submit">Sign Up</button>
+</form>
+</html>
