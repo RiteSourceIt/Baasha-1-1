@@ -1,0 +1,202 @@
+@font-face {src: url("cdac.ttf");font-family: "cdac";}
+
+.cdac {
+	font: 3.5em 'cdac';
+}
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color:none;
+	background:none;
+}
+
+.full {
+  background: url("../image/main_page_2.png") no-repeat center center fixed; 
+  background-color:#009edd;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index:2;
+}
+.MainNavbar{
+	 background-color:rgba(0,158,221,1);
+	 display:inline-block;
+	 margin-bottom: 0;
+}
+.MainNavbar .navbar-nav > li > a {
+  background-color:rgba(0,158,221,1);
+  color: #414141;
+  font-size:16px;
+  display: inline-block;
+}
+.MainNavbar .navbar-brand{
+	background: url("../image/Logo_1.png") no-repeat center center fixed; 
+  	background-color:rgba(0,158,221,1);
+	display:inline-block;
+	padding-top:2px;
+}
+.MainNavbar .navbar-brand:hover,
+.MainNavbar .navbar-brand:focus
+{
+	display:inline-block;
+	background-color: #015170;
+	color:#eee;
+	padding-top:2px;
+}
+.MainNavbar .navbar-nav > li > a:hover,
+.MainNavbar .navbar-nav > li > a:focus {
+  color: #eee;
+  background-color: #015170;
+}
+.PageNavbar{
+	 background-color:rgba(0,158,221,1);
+	 display:inline-block;
+   max-height: 57px;
+}
+.PageNavbar .navbar-brand{
+	display:inline-block;
+	padding-top:2px;
+}
+.PageNavbar .navbar-brand:hover,
+.PageNavbar .navbar-brand:focus
+{
+	display:inline-block;
+	background-color: #015170;
+	color:#eee;
+	padding-top:2px;
+}
+
+.PageNavbar .navbar-nav > li > a:hover,
+.PageNavbar .navbar-nav > li > a:focus {
+ 	background-color: #015170;
+	color:#eee;
+}
+.PageNavbar .navbar-nav > li > a {
+  color: #414141;
+  font-size:20px;
+  background-color:rgba(0,158,221,1);
+}
+.Main_box {
+	background-color:rgba(216,216,216,0.9);
+	color:#414141;
+	width:70%;
+	margin:auto;
+	margin-top:10%;
+	padding:20px 20px 20px 20px;
+	font-family:Arial;
+	font-size: 100%;
+	font-style:bold;
+	border-radius:10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Blue_Btn{
+	background-color:#009edd;
+	border-radius:40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) inset;
+	}
+.Blue_Btn:hover{
+	color:#015170;
+	text-shadow:1px -2px -4px 0 rgba(254, 254, 254, 0.2), 2px 6px 10px 0 rgba(0, 0, 0, 0.19);
+	
+}
+.grad {
+  background: #	009edd; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#009edd, #019adb, #00a8e8); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#009edd, #019adb, #00a8e); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#009edd, #019adb, #00a8e); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#009edd, #019adb, #00a8e); /* Standard syntax */
+}
+.grad_orange {
+  background: #	ff9a16; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#ff9a16, #ffb805, #ff9a16); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ff9a16, #ffb805, #ff9a16); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ff9a16, #ffb805, #ff9a16); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ff9a16, #ffb805, #ff9a16); /* Standard syntax */
+  color:#ffffff;
+  text-align:center;
+}
+
+.img_card {
+  max-width: 450px;
+  max-height:250px;
+  border: 1.5px solid #ff9a16;
+  text-align: center;
+}
+
+.img_card h4{
+	padding: 10px;
+	margin-bottom:0;
+	background-color:#ff9a16;
+}
+.img_card:hover{
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Circle_Button{
+	display:block;
+	border-radius:50%;
+	font-size:20px;
+	color:#fff;
+	line-height:100px;
+	text-shadow:0 1px 0 #666;
+	text-align:center;
+	text-decoration:none;
+	box-shadow:1px 1px 2px #000;
+	background:#cccbbb;
+	opacity:0.95
+	}
+.Cirlce-Button:hover{
+	color:#eee;
+	text-shadow:0 0 1px #666;
+	text-decoration:none;
+	box-shadow:0 0 4px #222 inset;
+	opacity:1}
+
+/*-----------------------
+Jeopardy Game
+---------------------*/
+.hiddenDiv{
+  display:none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-weight:bold;
+  }
+.showDiv{
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #0000ff;
+  cursor:pointer;
+  font-weight:bold;
+  font-size: 66px;
+}
+.headerColumn{
+  font-weight:bold;
+  font-size: 18pt;
+  color:white;
+  text-align:center;
+  border: 1px outset;
+}
+.questionColumn{
+  cursor:pointer;
+  border: 1px outset;
+  text-align:center;
+  font-weight:bold;
+  font-size: 30pt;
+}
+.questionColumnHighlight{
+  cursor:pointer;
+  border: 1px outset;
+  text-align: center;
+  background: #00aaff;
+  font-weight:bold;
+  font-size: 30pt;
+}
+
+.questionColumnComplete{
+  border: 1px outset;
+  text-align:center;
+}
